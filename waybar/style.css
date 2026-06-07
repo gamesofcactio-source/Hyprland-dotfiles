@@ -1,0 +1,62 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "MesloLGS Nerd Font";
+    font-size: 13px;
+
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+window#waybar {
+    background: #282828;
+    color: #ebdbb2;
+    margin: 0;
+    padding: 0;
+}
+
+tooltip {
+  background: rgba(43, 48, 59, 0.5);
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+tooltip label {
+  color: white;
+}
+
+#workspaces button {
+    background: #121212;
+    color: white;
+    border-radius: 0px;
+    padding: 0px;
+    margin: 0px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+#workspaces button.active{
+      background: #d79921;
+    color: #282828;
+}
+
+#clock {
+    background: transparent;
+    font-weight: 700;
+}
+
+#battery {
+    padding: 0 5px;
+    margin: 0 10px;
+    border-radius: 8px;
+}
+#pulseaudio{
+    padding: 0 5px;
+    margin: 0 10px;
+    border-radius: 8px;
+}
+
+#network{
+    padding: 0 5px;
+    margin: 0 10px;
+    border-radius: 8px;
+}

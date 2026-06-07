@@ -1,0 +1,15 @@
+# Ignore everything by default
+*
+
+# Allow the gitignore file itself
+!.gitignore
+
+# Allow Hyprland and its main components
+!hypr/
+!hypr/**
+!waybar/
+!waybar/**
+!kitty/
+!kitty/**
+!wofi/
+!wofi/**
