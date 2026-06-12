@@ -32,3 +32,6 @@
 
 !ScreenShots/
 !ScreenShots/**
+
+# Allow README file
+!README.md
