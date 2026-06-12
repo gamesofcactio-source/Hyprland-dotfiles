@@ -17,15 +17,7 @@ My personal Hyprland configuration files. This setup focuses on a clean aestheti
 If you want to replicate this setup on a fresh install, follow these steps:
 
 1. **Install core dependencies:**
-Hyprland
-Waybar
-Ghostty
-Fuzzel
-Hyprpaper
-Vim / Neovim
-Fastfetch
-Hyprlock
-Hypridle
+Hyprland, Waybar, Ghostty, Fuzzel, Hyprpaper, Vim / Neovim, Fastfetch, Hyprlock, Hypridle
 
 ## Screenshots
 
