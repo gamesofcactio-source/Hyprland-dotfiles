@@ -4,12 +4,31 @@
 # Allow the gitignore file itself
 !.gitignore
 
-# Allow Hyprland and its main components
+# Allow Hyprland and related configs
 !hypr/
 !hypr/**
+
 !waybar/
 !waybar/**
-!kitty/
-!kitty/**
-!wofi/
-!wofi/**
+
+!ghostty/
+!ghostty/**
+
+!fuzzel/
+!fuzzel/**
+
+!fastfetch/
+!fastfetch/**
+
+!nvim/
+!nvim/**
+
+!vim/
+!vim/**
+
+# Assets
+!Wallpaper/
+!Wallpaper/**
+
+!ScreenShots/
+!ScreenShots/**

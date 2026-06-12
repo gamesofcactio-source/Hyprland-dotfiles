@@ -1,0 +1,14 @@
+theme = Gruvbox Material Dark 
+font-family = MesloLGS Nerd Font
+font-size = 13
+
+background-opacity = 0.95 
+window-padding-x = 8
+window-padding-y = 8
+
+cursor-style = block
+shell-integration = zsh
+
+confirm-close-surface = false
+gtk-titlebar = false
+command = bash -c "exec zsh"
