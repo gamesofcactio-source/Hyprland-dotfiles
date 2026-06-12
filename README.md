@@ -3,21 +3,29 @@
 My personal Hyprland configuration files. This setup focuses on a clean aesthetic, smooth animations, and a productive workflow.
 
 ## 🖥️ System Overview
-* **OS:** Arch Linux (or whatever distro you use)
 * **WM:** Hyprland
 * **Bar:** Waybar
-* **Terminal:** Kitty/Ghostty
-* **Launcher:** Fuzzel / Rofi
+* **Terminal:** Ghostty 
+* **Launcher:** Fuzzel
 * **Wallpaper Daemon:** Hyprpaper
+* **Text editor:** Vim / Neovim 
+* **Fetch:** Fastfetch 
+* **Lock screen:** Hyprlock 
+* **Idle manager:** Hypridle 
 
 ## 🚀 Installation & Setup
 If you want to replicate this setup on a fresh install, follow these steps:
 
 1. **Install core dependencies:**
-Kitty/Ghostty
 Hyprland
-Fuzzel/Rofi
 Waybar
+Ghostty
+Fuzzel
+Hyprpaper
+Vim / Neovim
+Fastfetch
+Hyprlock
+Hypridle
 
 ## Screenshots
 
