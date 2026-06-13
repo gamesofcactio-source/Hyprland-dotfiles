@@ -7,17 +7,16 @@
     "margin-right": 0,
     "width": 1920,
     "modules-left": ["hyprland/workspaces"],
-    "modules-center": ["clock"],
-    "modules-right": ["network", "pulseaudio", "battery"],
+    "modules-right": ["network", "pulseaudio", "battery", "clock"],
     "battery": {
-        "format": "{capacity}% {icon}",
+        "format": "{icon}({capacity}%) ",
         "format-icons": [" ", " ", " ", " ", " "]
     },
     "clock": {
         "format-alt": "{:%a, %d. %b  %H:%M}"
     },
     "pulseaudio": {
-    "format": "{volume}% {icon}",
+    "format": " {icon}({volume}%)",
     "format-bluetooth": "{volume}% {icon}",
     "format-muted": "",
     "format-icons": {
@@ -39,7 +38,7 @@
     "network": {
     "interface": "wlan0",
     "format": "{ifname}",
-    "format-wifi": "{essid} ({signalStrength}%)  ",
+    "format-wifi": " ({signalStrength}%)" ,
     "format-ethernet": "{ipaddr}/{cidr} 󰊗 ",
     "format-disconnected": "", //An empty format will hide the module.
     "tooltip-format": "{ifname} via {gwaddr} 󰊗 ",
