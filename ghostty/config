@@ -1,8 +1,10 @@
-theme = Gruvbox Material Dark 
+# theme = Gruvbox Material Dark 
+background = 000000
+foreground = ffffff
 font-family = MesloLGS Nerd Font
 font-size = 13
 
-background-opacity = 0.95 
+background-opacity = 1 
 window-padding-x = 8
 window-padding-y = 8
 

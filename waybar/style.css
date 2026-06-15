@@ -2,16 +2,15 @@
     border: none;
     border-radius: 0;
     font-family: "MesloLGS Nerd Font";
-    font-size: 13px;
+    font-size: 11px;
 
-    min-height: 0;
     margin: 0;
     padding: 0;
 }
 
 window#waybar {
-    background: #282828;
-    color: #ebdbb2;
+    background: #000000;
+    color: #ffffff;
     margin: 0px 0px 0px 0px;
     padding: 0;
 }
@@ -24,19 +23,19 @@ tooltip label {
 }
 
 #workspaces button {
-    border: none;
-    background: #121212;
-    color: white;
+    border: 0.5px solid #777777;
+    background: #2b2b2b;
+    color: #d4d4d4;
     padding: 0px;
     margin: 0px;
-    min-width: 24px;
-    min-height: 24px;
+    min-width: 15px;
+    min-height: 5px;
 }
 
 #workspaces button.active{
-    border: none;
-    background: #d79921;
-    color: #282828;
+    background: #4a4a4a;
+    color: #ffffff;
+    border: 0.5px solid #777777;
 }
 
 #clock {
