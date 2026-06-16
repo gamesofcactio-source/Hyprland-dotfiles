@@ -11,22 +11,18 @@
 !waybar/
 !waybar/**
 
-!ghostty/
-!ghostty/**
+!kitty/
+!kitty/**
 
 !fuzzel/
 !fuzzel/**
-
-!fastfetch/
-!fastfetch/**
-
-!nvim/
-!nvim/**
 
 !vim/
 !vim/**
 
 # Assets
+!Wallpapers/
+!Wallpapers/**
 !ScreenShots/
 !ScreenShots/**
 
